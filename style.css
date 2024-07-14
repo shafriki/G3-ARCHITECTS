@@ -44,3 +44,69 @@
 .header {
     background-color:rgba(255, 144, 14, 0.1);
 }
+
+/* banner section*/
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner-title {
+    color: rgb(19, 19, 19);
+    font-size: 64px;
+    font-family: Work Sans;
+    font-weight: 700;
+    text-align: center;
+    width: 862px;
+    margin-bottom: 1px;
+}
+
+.banner .banner-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 868px;
+    margin-bottom: 32px;
+}
+
+.banner .banner-btn {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    background-color:rgb(255, 144, 14);
+    width: 180px;
+    padding: 20px;
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.banner .banner-img {
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+
+
+/* media query section*/
+@media screen and (max-width: 576px) {
+    .banner,
+    .nav-links,
+    .navbar {
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .banner-title {
+        color: red;
+    }
+}
