@@ -1,0 +1,46 @@
+/* import font family for this project */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* navbar section style star */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar .nav-links a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.navbar .nav-links li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar .nav-links {
+    display: flex;  
+}
+
+.navbar .nav-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color:rgba(255, 144, 14, 0.1);
+}
