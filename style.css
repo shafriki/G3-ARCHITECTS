@@ -205,3 +205,38 @@
     font-family: Work Sans;
     opacity: 0.7;
 }
+/* fact section */
+.fact-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;   
+}
+.fact-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.fact-description {
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.s-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid darkorange;
+    padding: 30px 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
