@@ -1,0 +1,79 @@
+
+/* media query section*/
+@media screen and (max-width: 576px) {
+    .nav-title {
+        font-size: 20px;
+    }  
+    .list a {
+        display: none;
+    } 
+    .block {
+        display: block;
+    }
+    .banner-title {
+        font-size: 30px;
+    }
+    .banner-description {
+        color: rgb(114, 114, 114);
+        font-size: 12px;
+        width: 97%;
+    }
+    .banner-btn {
+        font-size: 14px;
+        background: rgb(255, 144, 14);
+        width: 140px;
+        height: 40px;
+ 
+    }
+    .banner-img {
+        width: 300px;
+        height: 200px;
+    }
+    .features {
+        display: flex;
+       flex-direction: column;
+    }
+    .feature-img img {
+        width: 152px;
+        height: 152px;
+    }
+    .f-descripton {
+        font-size: 12px;
+        text-align: justify;
+    }
+    .f-title {
+        font-size: 30px;
+    }
+    /* service section */
+.service-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.service {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+.service-title {
+    font-size: 30px;
+}
+.service-description {
+    font-size: 12px;
+}
+.service-img {
+    width: 270px;
+    height: 302px;
+}
+.box-title {
+    font-size: 16px;
+}
+.box-description {
+    font-size: 12px;
+}
+.ten {
+    display: none;
+}
+
+}
