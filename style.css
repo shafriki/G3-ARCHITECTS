@@ -1,181 +1,54 @@
 /* import font family for this project */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* navbar section style star */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0px 0px 0px;
 }
-
-.navbar .nav-links a{
+.nav-title {
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.list a {
     text-decoration: none;
+    margin: 0px 0px 0px 20px;
     color: rgb(66, 66, 66);
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
     text-align: center;
 }
-
-.navbar .nav-links li {
-    list-style: none;
-    margin-right: 30px;
+.hidden {
+    display: none;
 }
 
-.navbar .nav-links {
-    display: flex;  
-}
-
-.navbar .nav-title {
-    color: rgb(19, 19, 19);
-    font-family: Work Sans;
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.navbar, .banner {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-.header {
-    background-color:rgba(255, 144, 14, 0.1);
-}
-
-/* banner section*/
-.banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner .banner-title {
-    color: rgb(19, 19, 19);
-    font-size: 64px;
-    font-family: Work Sans;
-    font-weight: 700;
-    text-align: center;
-    width: 862px;
-    margin-bottom: 1px;
-}
-
-.banner .banner-description {
-    color: rgb(114, 114, 114);
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    width: 868px;
-    margin-bottom: 32px;
-}
-
-.banner .banner-btn {
-    color: rgb(255, 255, 255);
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 8px;
-    background-color:rgb(255, 144, 14);
-    width: 180px;
-    padding: 20px;
-    border: none;
-    margin-bottom: 50px;
-    cursor: pointer;
-}
-
-.banner .banner-img {
-    border-radius: 8px;
-    width: 100%;
-
-}
-
-/* main section start*/
-.main-section {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-.teams {
-    display: flex;
-    justify-content: center;
-    align-items:center ;
-    margin-top: 85px;
-}
-
-.team-img {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-    border-radius: 8px;
-    /* margin-top: 85px; */
-}
-
-.our-features {
-    margin-left: 130px;
-    max-width: 537px;
-}
-#quick {
-    font-family: Work Sans;
-    font-size: 2.8rem;
-    font-weight: 500;
-    text-align: left;
-    color: rgb(114, 114, 114);
-}
-
-#of {
-    color: rgb(19, 19, 19);
-    font-family: Work Sans;
-    font-size: 2.8rem;
-    font-weight: 700;
-    text-align: left;
-}
-
-#features {
-    font-family: Work Sans;
-    font-size: 2.8rem;
-    font-weight: 700;
-    text-align: left;
-    color: rgb(255, 144, 14);
-}
-.features-description {
-    color: rgb(114, 114, 114);
-    font-family: Work Sans;
-    font-size: 1rem;
-    font-weight: 400;
-}
-.features-btn {
-    color: rgb(255, 255, 255);
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 8px;
-    background-color:rgb(255, 144, 14);
-    width: 180px;
-    padding: 20px;
-    border: none;
-    margin-bottom: 50px;
-    cursor: pointer; 
-}
 
 /* media query section*/
 @media screen and (max-width: 576px) {
-    .banner,
-    .nav-links,
-    .navbar,
-    .teams {
-        flex-direction: column;
-    }
-    .team-img {
-        grid-template-columns: repeat(1,1fr);
-    }
-    .our-features{
-        margin-left: 20px;
+    .nav-title {
+        font-size: 20px;
+    }  
+    .list a {
+        display: none;
+    } 
+    .block {
+        display: block;
     }
 
 }
