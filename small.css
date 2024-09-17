@@ -111,4 +111,27 @@
     gap: 5px;
 }
 
+/* sponsor section */
+.sponsor {
+    gap: 12px;
+}
+.s-text {
+    gap: 12px;
+}
+.s-title {
+    font-size: 30px;
+
+}
+.s-des {
+    font-size: 12px;
+    font-weight: 400;
+    width: 97%;
+}
+.logo {
+    gap: 20px;
+}
+.logo img {
+    width: 50px;
+}
+
 }
